@@ -25,7 +25,19 @@ function App() {
 
 
      <main>
-      
+        <div className="container1">
+          <h2>Total number of Buses</h2>
+
+        </div>
+        <div className="container2">
+          <h2></h2>
+        </div>
+        <div className="container3">
+
+        </div>
+        <div className="container4">
+
+        </div>
      </main>
 
 
