@@ -1,7 +1,7 @@
 //import express
 import express from 'express';
 //import schema
-import Book from '../models/book.js';
+import {Book} from '../models/book.js';
 
 
 //init route
