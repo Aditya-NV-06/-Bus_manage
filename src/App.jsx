@@ -9,11 +9,25 @@ function App() {
   return (
     <>
      <header>
-        <h1>Hello</h1>
+        <nav className="navbar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Routes</a></li>
+            <li><a href="#">Ticketing</a></li>
+            <li><a href="#">Queries</a></li>
+            <li><a href="#">Contact</a></li>
+            
+          </ul>
+          <button className="nav-login">Login</button>
+        </nav>
      </header>
+
+
      <main>
       
      </main>
+
+
      <footer>
 
      </footer>
