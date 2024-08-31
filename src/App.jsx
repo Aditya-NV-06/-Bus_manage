@@ -6,8 +6,6 @@ function App() {
 
   return (
     <>
-
-
      <Navbar/>
 
      <main>
@@ -29,6 +27,9 @@ function App() {
           <span>76</span>
         </div>
         </div>
+
+
+
      </main>
 
 
