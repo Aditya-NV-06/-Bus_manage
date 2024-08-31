@@ -6,51 +6,66 @@
 .navbar{
   display: flex;
   flex-direction: column;
-  height: 756px;
-  width: 120px;
+  height: 780px;
+  width: 130px;
+  margin-left: -20px;
+  margin-top: -20px;
+  margin-bottom: -20px;
   position: fixed;
-  background-color: rgb(184, 182, 182);
+  background-color: rgb(20, 70, 141);
 }
 .navbar ul{
   list-style: none;
-  margin-top: 6rem;
-  margin-left: -20px;
+  margin-top: 5rem;
+  margin-left: -30px;
 }
 .navbar ul li{
      margin-top:5rem;
+     
   }
 .navbar li a{
   text-decoration: none;
-  color: black;
+  color:black;
   font-size: 18px;
 
 }
+
 .nav-title{
-  width: 80px;
-  height: 35px;
- color: black;
- font-size: 20px;
- background-color: dimgrey;
+  width: 100px;
+  height: 80px;
+  color:black;
+ font-size: 28px;
+ background-color: white;
  text-align: center;
  border-radius: 5px;
- margin-left: 20px;
- margin-top: 50px;
+ margin-left: 15px;
+ margin-top: 20px;
+ padding-top: 30px;
+
 }
 .nav-item{
-  width: 80px;
-  height: 35px;
+  width: 100px;
+  height: 40px;
   text-align: center;
-  
+  margin-left: 5px;
 }
 .nav-item:hover{
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
+  color:black;
 }
 
 .title{
-  margin-left: 35%;
+  /* margin-left: 35%; */
   font-size: 44px;
   font-weight: 550;
+  background-color: #86B6F6;
+  width: 1490px;
+  height: 80px;
+  margin-left: 110px;
+  margin-top: -10px;
+  text-align: center;
+
 }
 main{
   margin-left: 140px;
@@ -60,15 +75,19 @@ main{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 100px;
+  justify-content:space-around;
+  margin-top: 20px;
 }
 .container{
-  width: 550px;
+  width: 300px;
   height: 300px;
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 25px;
   margin-top: 20px;
+  transition: transform;
+}
+.container:hover{
+  transform:scale(1.1)
 }
 .container h2{
   text-align: center;
@@ -78,6 +97,6 @@ main{
 .container span{
   font-size: 60px;
   font-weight: 500;
-  margin-left: 14rem;
-
+  margin-left: 6rem;
 }
+
