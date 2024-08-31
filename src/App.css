@@ -6,26 +6,49 @@
 .navbar{
   display: flex;
   flex-direction: column;
-  height: 720px;
+  height: 756px;
   width: 120px;
   position: fixed;
   background-color: rgb(184, 182, 182);
 }
 .navbar ul{
   list-style: none;
-  margin-top: 10rem;
-  margin-left: -10px;
+  margin-top: 6rem;
+  margin-left: -20px;
 }
 .navbar ul li{
-     margin-top:6rem;
+     margin-top:5rem;
   }
 .navbar li a{
   text-decoration: none;
   color: black;
+  font-size: 18px;
 
 }
+.nav-title{
+  width: 80px;
+  height: 35px;
+ color: black;
+ font-size: 20px;
+ background-color: dimgrey;
+ text-align: center;
+ border-radius: 5px;
+ margin-left: 20px;
+ margin-top: 50px;
+}
+.nav-item{
+  width: 80px;
+  height: 35px;
+  text-align: center;
+  
+}
+.nav-item:hover{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
 .title{
-  margin-left: 30%;
+  margin-left: 35%;
   font-size: 44px;
   font-weight: 550;
 }
@@ -46,4 +69,15 @@ main{
   border: 2px solid white;
   border-radius: 25px;
   margin-top: 20px;
+}
+.container h2{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.container span{
+  font-size: 60px;
+  font-weight: 500;
+  margin-left: 14rem;
+
 }
