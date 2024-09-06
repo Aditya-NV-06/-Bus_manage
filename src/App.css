@@ -52,22 +52,27 @@
   text-align: center;
   /* margin-left: 5px; */
   position: relative;
-  
 }
-.nav-item::before{
+.nav-link{
+  position: relative;
+}
+.nav-link:focus::after{
+  color: darkgray;
+}
+.nav-link::after{
   content: "";
-  top: 0;
-  width: 0px;
-  bottom: 10px;
-  display: none;
   position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: -8px;
+  left: 0;
+  background-color: aquamarine;
+  opacity: 0;
+  transition:ease-in-out 1s;
 }
-.nav-item::before:hover{
-  display: inline-block;
-  width: 60px;
-  height: 4px;
-  background-color: #FFFFFF;
-
+.nav-link:hover::after
+{
+  opacity: 1;
 }
 
 .title{
